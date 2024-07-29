@@ -42,7 +42,7 @@ html {
   }
   
   #SEdiv {
-    right: -450px;
+    right: 10px;
     top: -167px;
     position: relative;
     margin: auto;
@@ -118,8 +118,8 @@ html {
   }
 
 select {
-    height: 20px;
-    width: 100px;
+    height: 30px;
+    width: 140px;
     padding: 5px;
     border: 1px dotted rgba(235, 214, 109, 0.894);
     border-radius: 5px;
