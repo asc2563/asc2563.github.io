@@ -1,0 +1,14 @@
+.divsswic {
+    top: 30px;
+    right: 40px;
+    position: absolute;
+    color: rgb(124, 21, 221);
+    background-color: rgb(0, 255, 170);
+}
+
+button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: aqua;
+    color: blueviolet;
+}
