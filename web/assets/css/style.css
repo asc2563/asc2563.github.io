@@ -1,0 +1,24 @@
+html, body {
+    background-color: rgba(45, 46, 47, 0.918);
+    color: rgb(255, 255, 255);
+}
+
+button {
+    margin: 0px;
+    width: 80px;
+    height: 40px;
+    color: rgb(196, 241, 229);
+    border: 2px solid rgba(33, 0, 244, 0.951);
+    background-color: rgb(40, 40, 40);
+}
+
+button:hover {
+    transition: 1500ms;
+    width: 100px;
+    height: 30px;
+    transform: translateY(-0px);
+    background-color: #0c81e1;
+    color: rgb(0, 255, 47);
+    border: solid 4px rgb(47, 255, 0);
+    background-color: #0c81e1;
+}
