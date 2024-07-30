@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+    <img src="./assets/images/rock.jpg" alt="e" id = "hello">
+    <img src="./assets/images/paper.jpeg" alt="e" id = "hei">
+    <img src="./assets/images/scissors.jpeg" alt="e" id = "hew">
+    <script>
+        $("#hello").hide();
+        $("#hei").hide();
+        $("#hew").hide();
+    </script>
+        <script>
+
+
+            var i = 1;
+    
+    var interval = setInterval( increment, 1000);
+    
+    function increment(){
+        i = i % 3 + 1;
+        if (i == 1) {
+            $("#hello").show();
+            $("#hei").hide();
+            $("#hew").hide();
+        } else if (i == 2) {
+            $("#hello").hide();
+            $("#hei").show();
+            $("#hew").hide();
+        } else if (i == 3) {
+            $("#hello").hide();
+            $("#hei").hide();
+            $("#hew").show();
+        }
+    }
+    
+    
+    // todo: 1 is scissors 2 is rock 3 is paper
+        </script>
+    
+</body>
+</html>

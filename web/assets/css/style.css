@@ -13,7 +13,7 @@ button {
 }
 
 button:hover {
-    transition: 1500ms;
+    transition: 1000ms;
     width: 100px;
     height: 30px;
     transform: translateY(-0px);
