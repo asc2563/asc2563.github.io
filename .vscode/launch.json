@@ -1,5 +1,12 @@
 {
     "configurations": [
+        {
+            "name": "Launch Edg2e",
+            "request": "launch",
+            "type": "msedge",
+            "url": "http://127.0.0.1:3000/javascript/index.html",
+            "webRoot": "${workspaceFolder}"
+        },
     {
         "name": "Launch Edge",
         "request": "launch",
