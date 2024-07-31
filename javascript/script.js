@@ -12,9 +12,9 @@ function checkGuess() {
         document.getElementById('message').innerHTML = 'Too high! Try guessing lower.';
     }
     if (attempts === 10) {
-        document.getElementById('message').innerHTML = 'you lost you A HUGE loser LLLLLL';
+        document.getElementById('message').innerHTML = 'you lost your A HUGE loser LLLLLL';
     } else if (attempts > 10) {
-        document.getElementById('message').innerHTML = 'you lost you A HUGE loser LLLLLL';
+        document.getElementById('message').innerHTML = 'you lost your A HUGE loser LLLLLL';
 
     }
     console.log(attempts)
